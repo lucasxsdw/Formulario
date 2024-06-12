@@ -1,0 +1,208 @@
+html{
+   background-color: #ddd;
+   font-family: Arial;
+}
+
+.cabecalho{
+    background-color: rgb(114, 28, 194);
+    height: 190px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 1; 
+    width: 100%;
+}
+
+.titulo-principal{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: small;
+    font-style: normal;
+
+}
+
+.conteiner{
+    margin: 0 auto; /*pega o intem setralizado e as margins lateral e definida pelo html*/
+    width: 60%;
+    background-color: #ffffff;
+    position: relative;
+    margin: 140px auto; /* em cima e baixo 50px*/
+    padding: 20px 50px; 
+    height: 1300px;
+    z-index: 2;
+    background-color: #fff;
+    
+}
+
+.Formulario{
+    text-align: center;
+    margin-top: auto;
+    color: rgba(138, 30, 238, 0.747);
+    text-transform: uppercase ; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid rgba(61, 60, 60, 0.219);
+   
+   
+}
+.linha-personalizada{
+   height: 2px;
+   width: 19%;
+   margin-left: 40%;
+   background-color: rgb(114, 28, 194);
+}
+
+.titulo-form h2{
+    font-size: xx-large;
+    color: #000000;
+}
+
+
+.form{
+    margin-top: auto;
+}
+
+.title-anuncio label{
+    display: block;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.title-anuncio input{
+   border: transparent;
+   width: 300px;
+   font-size: medium;
+  
+   
+}
+
+.Preco label{
+    display: block;
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Preco input{
+    border: transparent;
+    width: 300px;
+    font-size: medium;
+}
+
+.descricao-veiculo label{
+    display: block;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.data-compra{
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.data-compra input{
+    display: block;
+    border: transparent;
+    width: 300px;
+    margin-top: 10px;
+  
+
+}
+
+.title-cambio{
+    font-size: x-large;
+  
+}
+.tipos-de-cambio{
+    margin-top: 20px;
+  
+
+}
+.tipos-de-cambio input{
+    display: inline-block;
+}
+
+
+.Opcionais{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.opcionais-2{
+    display: inline-block;
+    
+  
+}
+
+.fotos-carros{
+    margin-top: 20px;
+}
+.fotos-carros label{
+    display: block;
+    font-size: x-large;
+}
+.fotos-carros input{
+    margin-top: 10px;
+}
+
+.linha{
+    width: 370px;
+    margin-left: 0%;
+    color: #ddd;
+}
+
+.title-opcao{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.Bottom-enviar{
+    margin-top: 20px;
+    border: none;
+    padding: 20px;
+    background-color: rgb(114, 28, 194);
+    color: #fff;
+    cursor: pointer;
+}
+
+.required-field{
+    color: red;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px; 
+   
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 3px solid  rgba(114, 28, 194, 0.8);
+    width: 80%; 
+    max-width: 500px; 
+    text-align: center; 
+}
+
+#confirm-yes, #confirm-no {
+    background-color: rgb(114, 28, 194);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#confirm-yes:hover, #confirm-no:hover {
+    background-color: rgba(114, 28, 194, 0.8);
+}
